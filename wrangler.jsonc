@@ -1,0 +1,12 @@
+// Deploy with: npx wrangler deploy
+// Serves the static files in this folder from the "zerowing" Worker,
+// which is bound to zerowing.in and www.zerowing.in (ali.iitbbs@gmail.com's account).
+{
+  "name": "zerowing",
+  "account_id": "ce820e5ea6ed1cf17d272c2f7810c011",
+  "compatibility_date": "2026-10-12",
+  "workers_dev": false,
+  "assets": {
+    "directory": "."
+  }
+}
