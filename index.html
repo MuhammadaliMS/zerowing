@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zerowing — Software That Makes Life Better</title>
     <meta name="description" content="Zerowing crafts software that simplifies your life. Thoughtful design, zero bloat, always free.">
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#08080a">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Zerowing">
+    <meta property="og:title" content="Zerowing — Software That Makes Life Better">
+    <meta property="og:description" content="Zerowing crafts software that simplifies your life. Thoughtful design, zero bloat, always free.">
+    <meta property="og:url" content="https://zerowing.in/">
+    <meta property="og:image" content="https://zerowing.in/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Zerowing","url":"https://zerowing.in/","logo":"https://zerowing.in/icon-512.png"}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@500&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
     <style>
@@ -71,13 +85,18 @@
         }
 
         .logo {
-            font-family: 'Space Grotesk', sans-serif;
-            font-weight: 600;
-            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            font-family: 'Google Sans', sans-serif;
+            font-weight: 500;
+            font-size: 1.05rem;
             color: var(--white);
             text-decoration: none;
-            letter-spacing: -0.03em;
+            letter-spacing: -0.01em;
         }
+
+        .logo img { height: 1.2em; width: auto; display: block; }
 
         .nav-links {
             display: flex;
@@ -716,7 +735,7 @@
 <!-- Nav -->
 <nav>
     <div class="nav-bar">
-        <a href="#" class="logo">zerowing</a>
+        <a href="#" class="logo"><img src="/zerowing-mark.svg" alt="" width="28" height="24">zerowing</a>
         <ul class="nav-links">
             <li><a href="#principles">Principles</a></li>
             <li><a href="#process">Process</a></li>
